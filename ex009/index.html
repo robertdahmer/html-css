@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
 </head>
 <body>
-    <h1>Trabalhando com Listas</h1>
+    <h1>Trabalhando com listas</h1>
     <h2>Listas ordenadas</h2>
-    <ol>
-        <li>Acirdar</li>
-    </ol>
+    1- Acordar  <br>
+    2- Tomar café <br>
+    3- Ligar para o João <br>
+
+    <p>
+        <ol type="1" start="0">        <!--Tipo de lista (numérica, romana, alfabética) start(onde começa)-->
+            <li>Acordar</li> <!--List Item (LI) O </li> É OPCIONAL-->
+            <li>Tomar café
+            <li>Escovar os dentes</li>
+        </ol> <!--Ordened List (lista ordenada) Faz uma tabulação com números -->
+    </p>
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc"> <!--Disc, circle, square-->
+        <li>Acordar</li>
+        <li>Bater punheta</li>
+        <li>Levantar da cama</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola</li>
+    </ul> <!--Unordened list (lista desordenada) Faz uma tabulação com bolinhas-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ul>
+        <li>Antigas</li>                <!--Listas aninhadas, é possível colocar listas dentro de listas (como você está vendo)-->
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+            <li>Visual Basic</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ul>
+    
 </body>
 </html>
