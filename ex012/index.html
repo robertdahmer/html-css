@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Trabalhando com imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes. Ou simplesmente redimensione a janela do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
 </body>
 </html>
