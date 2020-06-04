@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(129, 76, 216);
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding-top: 40px;
+    font: normal 15pt Arial;
+}
+h1 {
+   font-size: 30pt; 
+   color: rgb(255, 255, 255)
+}
+h2 {
+    color: rgb(255, 255, 255);
+}
